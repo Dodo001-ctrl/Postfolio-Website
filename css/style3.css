@@ -70,21 +70,20 @@
   color: #fff;
 }
 
-.a {
-    padding: 1rem;
-    font-size: 20px;
-    justify-content: center;
-} 
-nav ul {
+
+header nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 2rem;
-  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
 }
+
 nav a {
-  color: white;
+  color: #00ffff;
   text-decoration: none;
+  font-weight: bold;
 }
 
 
