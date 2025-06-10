@@ -1,0 +1,123 @@
+/* Projects Section */
+/* .projects {
+  padding: 3rem 1rem;
+  background-color: #0e0e1a;
+  color: #fff;
+  min-height: 100vh;
+} */
+
+/* Projects Section */
+.projects {
+  padding: 3rem 1rem;
+  background-color: rgba(14, 14, 26, 0.5); /* semi-transparent dark */
+  color: #fff;
+  min-height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.project-card {
+  background-color: #1e1e2e;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+}
+
+.project-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.project-card a {
+  text-decoration: none;
+  background: #00bcd4;
+  color: #000;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.project-card a:hover {
+  background: #008c9e;
+  color: #fff;
+}
+
+.a {
+    /* padding: 1rem;
+    font-size: 20px;
+    justify-content: center; */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    font-size: 20px;
+  }
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  /* background: #222; */
+  color: white;
+  font-size: 20px;
+}
+
+/* Particles.js Background */
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: #0e0e1a;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background-color: transparent; /* fully transparent */
+  position: relative;
+  z-index: 1;
+}

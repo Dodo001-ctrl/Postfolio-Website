@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - Portfolio</title>
+  <link rel="stylesheet" href="css/style2.css" />
+
+  <!-- Particles.js CDN -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <section class="section-block">
+      <h1 class="section-title">About Me</h1>
+      <p>Hello! I'm <strong>Sharanga Pani Gogoi</strong>, a passionate front-end developer focused on building responsive and visually appealing web interfaces. I enjoy turning ideas into code and creating user-friendly experiences using clean HTML and CSS.</p>
+    </section>
+
+    <section class="section-block">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Responsive Web Design</li>
+        <li>Git & GitHub</li>
+        <li>C & C++</li>
+        <li>Bootstrap / Tailwind</li>
+        <li>MERN & PERN Stack Developer</li>
+      </ul>
+    </section>
+
+    <section class="section-block">
+      <h2 class="section-title">Education</h2>
+      <p>Bachelor of Computer Applications (BCA)</p>
+    </section>
+
+    <section class="section-block">
+      <h2 class="section-title">Hobbies & Interests</h2>
+      <p>In my free time, I love exploring new design trends, practicing UI cloning, and contributing to small open-source projects. <br>I also enjoy reading about web accessibility and performance optimization.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sharanga</p>
+  </footer>
+
+  <!-- Particles.js Configuration -->
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: {
+          value: 80,
+          density: { enable: true, value_area: 800 }
+        },
+        color: { value: "#ffffff" },
+        shape: {
+          type: "circle",
+          stroke: { width: 0, color: "#000000" },
+          polygon: { nb_sides: 5 }
+        },
+        opacity: {
+          value: 0.5,
+          random: false,
+          anim: { enable: false }
+        },
+        size: {
+          value: 3,
+          random: true,
+          anim: { enable: false }
+        },
+        line_linked: {
+          enable: true,
+          distance: 150,
+          color: "#ffffff",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 4,
+          direction: "none",
+          random: false,
+          straight: false,
+          out_mode: "out",
+          bounce: false
+        }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+          onclick: { enable: true, mode: "push" },
+          resize: true
+        },
+        modes: {
+          repulse: { distance: 100, duration: 0.4 },
+          push: { particles_nb: 4 }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+</body>
+</html>

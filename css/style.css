@@ -1,0 +1,78 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Particles.js background */
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #0d0d1a; /* dark blue background */
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff;
+}
+
+/* Header & Navigation */
+header {
+  /* background: rgba(0, 0, 0, 0.8); */
+  color: white;
+  padding: 1rem;
+  font-size: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a.active {
+  border-bottom: 2px solid #00ccff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 6rem 1rem;
+  background-color: rgba(255, 255, 255, 0.1); /* transparent glass effect */
+  border-radius: 10px;
+  margin: 3rem auto;
+  max-width: 800px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  /* background: rgba(0, 0, 0, 0.8); */
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero {
+    padding: 3rem 1rem;
+    margin: 1.5rem;
+  }
+}
